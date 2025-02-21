@@ -1,18 +1,13 @@
-#container-for-table {
-        display: grid;
-        grid-template-columns: repeat(10, 1fr);
-        padding: 20px;
-      }
+.container-for-table {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
 
-      #container-for-table div {
-        border: 1px solid #ccc;
-        padding: 10px;
-        text-align: center;
-      }
-
-      button {
-        padding: 10px 20px;
-        font-size: 16px;
-        cursor: pointer;
-        margin-top: 20px;
-      }
+.extracted {
+    background-color: lightblue;
+}
